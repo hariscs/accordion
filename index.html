@@ -1,40 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="image">
+					<img
+						src="./images/illustration-woman-online-mobile.svg"
+						alt="illustration-woman"
+						class="card-img"
+					/>
+				</div>
+				<div class="faq">
+					<ul class="fag-list">
+						<!-- question 1 -->
+						<li class="list-item">
+							<div class="question">
+								<h2 class="question-title">
+									How many team members can I invite?
+								</h2>
+							</div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+							<div class="answer">
+								<p class="answer-text">
+									You can invite up to 2 additional users on the Free plan.
+									There is no limit on team members for the Premium plan.
+								</p>
+							</div>
+						</li>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+						<!-- question 2 -->
+						<li class="list-item">
+							<div class="question">
+								<h2 class="question-title">
+									What is the maximum file upload size?
+								</h2>
+							</div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+							<div class="answer">
+								<p class="answer-text">
+									No more than 2GB. All files in your account must fit your
+									allotted storage space.
+								</p>
+							</div>
+						</li>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+						<!-- question 3 -->
+						<li class="list-item">
+							<div class="question">
+								<h2 class="question-title">How do I reset my password?</h2>
+							</div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+							<div class="answer">
+								<p class="answer-text">
+									Click “Forgot password” from the login page or “Change
+									password” from your profile page. A reset link will be emailed
+									to you.
+								</p>
+							</div>
+						</li>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+						<!-- question 4 -->
+						<li class="list-item">
+							<div class="question">
+								<h2 class="question-title">Can I cancel my subscription?</h2>
+							</div>
 
+							<div class="answer">
+								<p class="answer-text">
+									Yes! Send us a message and we’ll process your request no
+									questions asked.
+								</p>
+							</div>
+						</li>
+
+						<!-- question 5 -->
+						<li class="list-item">
+							<div class="question">
+								<h2 class="question-title">
+									Do you provide additional support?
+								</h2>
+							</div>
+
+							<div class="answer">
+								<p class="answer-text">
+									Chat and email support is available 24/7. Phone lines are open
+									during normal business hours.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+	</body>
 </html>
