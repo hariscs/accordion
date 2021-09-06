@@ -1,4 +1,13 @@
 body {
-  margin: 0;
+  background: linear-gradient(#af67e9, #6565e7);
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
