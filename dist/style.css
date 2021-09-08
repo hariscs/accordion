@@ -25,10 +25,33 @@ img {
   z-index: 1;
 }
 
+@media (min-width: 778px) {
+  .faq-img {
+    margin-top: initial;
+    margin-bottom: 2em;
+    margin-left: -2em;
+  }
+}
+
+@media (min-width: 778px) {
+  .s-style {
+    max-width: 900px;
+    min-height: 90vh;
+    margin: auto;
+    border-radius: 20px;
+  }
+}
+
 .accordion {
   background: white;
   padding: 6em 1em 1em;
   z-index: -1;
   border-radius: 20px;
+}
+
+@media (min-width: 778px) {
+  .accordion {
+    padding: 2em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
