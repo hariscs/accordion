@@ -1,6 +1,8 @@
 body {
 	background: linear-gradient($Soft-violet, $Soft-blue);
-	overflow: hidden;
+	@include desktop {
+		overflow: hidden;
+	}
 }
 
 img {

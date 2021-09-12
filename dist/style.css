@@ -1,6 +1,11 @@
 body {
   background: linear-gradient(#af67e9, #6565e7);
-  overflow: hidden;
+}
+
+@media (min-width: 778px) {
+  body {
+    overflow: hidden;
+  }
 }
 
 img {
